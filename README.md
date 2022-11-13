@@ -18,6 +18,7 @@ This funcion is added by Java Script file.
 
 ## DEMO: https://krzysztof-broniszewski.github.io/Currency-calculator/
 
+## Part of code:
 ![Part of code](Images/part_of_code.jpg)
 
 ![Demo animation](Images/Demo.gif)

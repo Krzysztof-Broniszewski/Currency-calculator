@@ -9,6 +9,12 @@
     const USD = 4.7328;
     const GBP = 5.3795;
 
+    fetch("http://api.nbp.pl/?format=json")
+        .then(res => res.json())
+        .then(res => {
+            console.log(res);
+        });
+
     currencyElement.addEventListener("input", () => {
 
         let amount = amountElement.value
