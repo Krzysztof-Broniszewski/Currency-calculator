@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/style_exchange.css">
+    <script defer type="text/javascript" src="JS/exchange.js"></script>
+    <title>Currency converter</title>
+    <link rel="icon" href="Images/KB_favicon.png">
+    <meta property="og:image" content="Images/share.png">
+</head>
+
+<body class="body">
+    <div class="small_square">Exchange<br>Calculator</div>
+    <div class="square">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend>Exchange Calculator</legend>
+                <p>
+                    <label>How much You want buy?</label>
+                    <input class="form__amount js-form__amount" type="number" required
+                        placeholder="Write here amount exchange">
+                </p>
+                <p>
+                    <label class="form__currency">Currency:</label>
+                    <select class="js-form__currency" name="currency">
+                        <option>Select currency</option>
+                        <option>EUR</option>
+                        <option>USD</option>
+                        <option>GBP</option>
+                    </select>
+                </p>
+                <p>
+                    <label class="form__rateLabel">Rate for day: <span class="form__date js-form__date"></span></label>
+                    <input class="form__value js-form__value" required readonly>
+                </p>
+            </fieldset>
+            <p>Result: <span class="form__result js-form__result">N/A</span>PLN</p>
+            <p><span class="form__warning js-form__warning">You must select a currency</span></p>
+        </form>
+    </div>
+    <div class="footer">© 2022 Krzysztof Broniszewski - Wszelkie prawa zastrzeżone.</div>
+</body>
+
+</html>
