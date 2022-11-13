@@ -1,4 +1,7 @@
-# Currency-calculator PLN => EUR, PLN => USD, PLN => GBP
+# Currency-calculator: 
+PLN => EUR, 
+PLN => USD, 
+PLN => GBP
 
 ## This calculator helps You convert money from PLN (Polish złoty) to EUR (Euro), USD (U.S. Dollar), GBP (British Pound).
 
